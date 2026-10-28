@@ -1,0 +1,1 @@
+Baca AGENTS.md dan standards/README.md. Pada repository aplikasi, baca PROJECT_CONTEXT.md. Jangan mengarang hasil audit, screenshot, atau klaim ISO. Perbarui dokumentasi terdampak setelah implementasi dan pengujian.
