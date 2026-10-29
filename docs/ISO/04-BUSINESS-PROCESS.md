@@ -29,6 +29,10 @@ last_updated: null
 
 ## 4. Rincian dan analisis
 
+Untuk setiap proses dan role, inventarisasi seluruh output: nama/tujuan, pemicu, bentuk/format, isi dan sumber data, filter/periode, penerima dan hak akses, serta cara memperoleh hasil. Sertakan contoh dengan data sintetis dan bukti; tandai hasil yang belum diperiksa sebagai Belum terverifikasi.
+
+Dokumentasikan alur setiap role terverifikasi: pemicu, prasyarat, langkah penggunaan, validasi, perubahan data/status, hasil, alur gagal, dan penyerahan ke role lain. Sertakan diagram alur dan referensi bukti. Gunakan rincian ini sebagai sumber bab Alur Program per Role pada laporan akhir.
+
 [Isi berdasarkan bukti proyek; jika belum ada, tulis Belum terverifikasi.]
 
 ## 5. Bukti dan referensi
@@ -40,5 +44,7 @@ last_updated: null
 [Isi berdasarkan bukti proyek; jika belum ada, tulis Belum terverifikasi.]
 
 ## 7. Riwayat revisi
+
+- 2026-10-29: Panduan template diperluas untuk mendukung alur program per role pada laporan akhir; bukan hasil pemeriksaan aplikasi.
 
 [Isi berdasarkan bukti proyek; jika belum ada, tulis Belum terverifikasi.]

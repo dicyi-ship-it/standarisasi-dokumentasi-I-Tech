@@ -29,6 +29,10 @@ last_updated: null
 
 ## 4. Rincian dan analisis
 
+Rincikan output setiap use case pada alur utama maupun alternatif: bentuk dan isi hasil, penerima, batas akses, cara memperoleh, serta kondisi kosong/gagal/ditolak yang berlaku. Pisahkan output yang diharapkan dari hasil aktual dan tautkan contoh serta bukti pengujiannya.
+
+Petakan setiap role terverifikasi ke seluruh use case yang dapat diakses. Untuk setiap use case, jelaskan aktor, prasyarat, alur utama, alur alternatif/gagal, batas otorisasi, kondisi akhir, serta referensi kode dan pengujian. Cocokkan cakupannya dengan bab Alur Program per Role pada laporan akhir.
+
 [Isi berdasarkan bukti proyek; jika belum ada, tulis Belum terverifikasi.]
 
 ## 5. Bukti dan referensi
@@ -40,5 +44,7 @@ last_updated: null
 [Isi berdasarkan bukti proyek; jika belum ada, tulis Belum terverifikasi.]
 
 ## 7. Riwayat revisi
+
+- 2026-10-29: Panduan template diperluas untuk mendukung alur program per role pada laporan akhir; bukan hasil pemeriksaan aplikasi.
 
 [Isi berdasarkan bukti proyek; jika belum ada, tulis Belum terverifikasi.]
