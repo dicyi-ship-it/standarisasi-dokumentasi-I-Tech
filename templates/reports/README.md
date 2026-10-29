@@ -1,5 +1,7 @@
 # Template Laporan PDF
 
+Template laporan membantu menyusun pertanggungjawaban yang dapat dipahami pimpinan, mulai dari kebutuhan organisasi sampai hasil pekerjaan dan keputusan lanjutan. Laporan wajib memuat narasi umum yang lengkap di setiap bab sebelum tabel atau bukti teknis. Jelaskan arti hasil bagi pengguna dan layanan, gunakan istilah sehari-hari, serta terangkan istilah teknis ketika pertama disebut. Ikuti [kebijakan dokumentasi](../../standards/documentation.md); daftar poin atau tabel saja belum memenuhi kebutuhan penjelasan.
+
 Sumber: dokumen ISO aplikasi, metadata Git, hasil tes, screenshot, bukti operasional. Bahasa Indonesia formal; ukuran A4; tabel dan gambar berlabel; status DRAFT sebelum persetujuan. PDF dibuat hanya setelah tersedia bukti, bukan pada setiap commit.
 
 Laporan akhir wajib menyertakan bab **Alur Program per Role** setelah profil sistem. Gunakan [template alur per role](ALUR-PROGRAM-PER-ROLE.template.md) untuk menjelaskan seluruh role terverifikasi, langkah penggunaan tiap proses, batas akses, dan hubungan proses antar-role beserta bukti.

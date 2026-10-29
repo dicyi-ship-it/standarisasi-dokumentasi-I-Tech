@@ -2,6 +2,8 @@
 
 Status: DRAFT. Isi berdasarkan aplikasi yang diperiksa; placeholder bukan hasil verifikasi. Bab ini ditempatkan setelah profil sistem dalam laporan akhir.
 
+Bab ini membantu pimpinan memahami bagaimana masing-masing peran pengguna menjalankan pekerjaannya melalui aplikasi dan hasil apa yang diterima. Awali setiap pembahasan peran dan proses dengan paragraf yang menjelaskan tujuan pekerjaan, langkah yang dilakukan, hubungan dengan pihak lain, serta manfaat dan batasan hasilnya. Tabel berikut merupakan pendukung narasi dan harus dijelaskan maknanya. Ganti petunjuk dengan uraian lengkap berdasarkan bukti saat template digunakan.
+
 - Aplikasi dan versi: [isi]
 - Branch dan commit yang diperiksa: [isi]
 - Tanggal dan penanggung jawab: [isi]
@@ -22,6 +24,8 @@ Ulangi bagian berikut untuk **setiap role**, lalu ulangi tabel proses untuk **se
 
 ### Role: [nama role terverifikasi]
 
+[Jelaskan dengan bahasa umum siapa pemegang peran ini, tanggung jawabnya, mengapa aksesnya diperlukan, dan bagaimana pekerjaannya berhubungan dengan peran lain. Jelaskan batas wewenangnya melalui perilaku aplikasi yang telah diperiksa.]
+
 - Tujuan penggunaan: [isi]
 - Prasyarat akun, hak akses, dan data: [isi]
 - Cara masuk dan halaman/dashboard awal: [isi; N/A dengan alasan untuk akses publik]
@@ -29,6 +33,8 @@ Ulangi bagian berikut untuk **setiap role**, lalu ulangi tabel proses untuk **se
 - Cara mengakhiri sesi: [isi jika berlaku]
 
 #### Proses: [nama proses / ID use case]
+
+[Uraikan proses dari kebutuhan awal hingga selesai dalam paragraf yang mudah diikuti: siapa memulai, apa yang diisi/diperiksa, bagaimana sistem merespons, siapa melanjutkan, dan kapan pekerjaan dianggap selesai. Jelaskan pula akibat jika proses gagal atau belum dapat dilanjutkan.]
 
 - Pemicu dan kondisi awal: [isi]
 - Hasil akhir yang diharapkan: [isi]
@@ -44,6 +50,8 @@ Ulangi bagian berikut untuk **setiap role**, lalu ulangi tabel proses untuk **se
 - Screenshot: [nomor gambar, keterangan langkah, lokasi bukti asli dengan data sintetis; Belum terverifikasi bila belum tersedia]
 
 #### Output proses
+
+[Jelaskan dalam paragraf apa hasil proses ini, mengapa hasil tersebut dibutuhkan penerima, bagaimana hasil diperoleh dan digunakan, serta keterbatasannya. Bedakan hasil yang diharapkan dari hasil aktual yang sudah dibuktikan.]
 
 Ulangi rincian berikut untuk **setiap output** proses ini. Sertakan hasil yang dibuat role ini maupun hasil yang diterima dari role lain, dengan merujuk proses asalnya. Catat hanya jenis output yang benar-benar ditemukan; bila proses tidak menghasilkan output, tulis N/A dengan alasan berdasarkan pemeriksaan.
 
@@ -61,6 +69,8 @@ Ulangi rincian berikut untuk **setiap output** proses ini. Sertakan hasil yang d
 - Referensi verifikasi: [path/simbol kode pada commit terkait, ID tes, dan bukti aktual; bedakan pemeriksaan kode dari pengujian]
 
 #### Tujuan dan pengiriman email (jika output melalui email)
+
+[Jelaskan kepada pimpinan siapa menerima email, mengapa orang tersebut dipilih, kapan email dibuat, apa isinya, dan apa yang harus dilakukan penerima. Jelaskan To sebagai penerima utama, CC sebagai penerima salinan, dan BCC sebagai penerima salinan yang alamatnya tidak ditampilkan kepada penerima lain, jika digunakan. Jangan menyamakan masuk antrean dengan telah diterima.]
 
 Ulangi untuk setiap jenis email. Jika tidak menggunakan email, tulis N/A berdasarkan pemeriksaan. Gunakan alamat sintetis atau samarkan alamat pribadi dalam laporan, tanpa menghilangkan penjelasan sumber dan aturan pemilihannya.
 

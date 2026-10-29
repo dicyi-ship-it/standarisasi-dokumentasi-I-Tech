@@ -1,5 +1,9 @@
 # Laporan Pertanggungjawaban PDF
 
+Laporan akhir ditujukan kepada atasan/pimpinan untuk memahami pekerjaan pengembangan, cara aplikasi mendukung kegiatan organisasi, hasil yang sudah tersedia, serta persoalan yang memerlukan keputusan. Pembaca harus dapat memahami isi utama tanpa pengetahuan pemrograman. Setiap bab wajib memiliki penjelasan umum dan uraian yang cukup; rincian teknis berfungsi sebagai bukti pendukung.
+
+Ringkasan eksekutif menjelaskan latar belakang kebutuhan, ruang lingkup pekerjaan, capaian terverifikasi, manfaat bagi pengguna, keterbatasan, dan keputusan yang diminta dari pimpinan bila ada. Setiap bab berikutnya mengembangkan penjelasan itu dalam bahasa sehari-hari: apa yang dilakukan, siapa yang terlibat, bagaimana proses berlangsung, hasilnya, dan dampaknya terhadap layanan. Jelaskan istilah teknis pada penggunaan pertama dan tempatkan daftar route, rincian konfigurasi, potongan kode, serta log panjang dalam bagian teknis atau lampiran. Tabel dan screenshot harus disertai narasi tentang arti dan implikasinya, bukan berdiri sendiri.
+
 Buat satu PDF A4 berbahasa Indonesia pada saat diminta, milestone, atau rilis disetujui. Struktur: sampul, lembar pengesahan kosong, ringkasan eksekutif, pendahuluan, profil sistem, pekerjaan pengembangan, arsitektur/keamanan, hasil tes dan screenshot, riwayat Git, operasional, risiko/rekomendasi, penutup, lampiran.
 
 ## Alur program per role

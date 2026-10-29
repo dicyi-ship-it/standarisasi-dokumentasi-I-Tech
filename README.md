@@ -1,5 +1,7 @@
 # Standarisasi Dokumentasi I-Tech
 
+Repository ini menyediakan pedoman bersama agar dokumentasi aplikasi dapat menjelaskan pekerjaan dan hasilnya kepada pimpinan serta tetap dapat diperiksa oleh tim teknis. Dokumen yang disusun dari pedoman ini harus menerangkan kebutuhan organisasi, cara kerja, pihak yang terlibat, dan hasil secara utuh. Rincian kode dan pengujian menjadi bukti pendukung setelah pembaca memahami gambaran umumnya.
+
 Kerangka kerja internal untuk standarisasi rekayasa perangkat lunak, dokumentasi, pengujian, dan pelaporan aplikasi Laravel universitas. **Bukan sertifikasi ISO**.
 
 ## Mulai

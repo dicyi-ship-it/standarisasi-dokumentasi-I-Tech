@@ -14,22 +14,38 @@ approved_by: null
 
 > Template internal; bukan sertifikasi ISO. Semua klaim harus berdasarkan bukti.
 
+## Penjelasan umum
+
+Dokumentasi kode sumber menjelaskan bagian program yang menjalankan pekerjaan aplikasi agar dapat dipelihara dan ditelusuri. Dahulukan penjelasan fungsi utama, hubungan antarmodul, dan dampaknya bagi layanan; nama file dan fungsi program menjadi bukti pendukung bagi pelaksana teknis.
+
+Petunjuk pengisian: kembangkan pengantar ini menjadi uraian khusus aplikasi berdasarkan bukti. Gunakan bahasa yang dipahami pimpinan dan jelaskan makna tabel, diagram, atau contoh sebelum menyajikan rincian teknis.
+
 ## Tujuan dan ruang lingkup
 
-[Isi]
+Uraikan kebutuhan organisasi yang dijawab, pihak yang berkepentingan, serta batas pembahasan. Jelaskan mengapa informasi pada dokumen ini diperlukan dan bagaimana pembaca akan menggunakannya.
+
+[Tulis uraian lengkap sesuai petunjuk berdasarkan bukti aplikasi. Jika tidak berlaku, tulis N/A beserta alasan.]
 
 ## Kondisi terverifikasi
 
-[Belum terverifikasi]
+Jelaskan keadaan yang benar-benar ditemukan, versi dan lingkungan yang diperiksa, serta cara memperoleh bukti. Bedakan pemeriksaan kode dari pengujian langsung dan jelaskan pengaruh bagian yang belum diketahui terhadap kesimpulan.
+
+[Jika belum ada bukti, tulis Belum terverifikasi, jelaskan informasi yang belum diketahui dan pemeriksaan lanjutan yang diperlukan.]
 
 ## Rincian dan bukti
 
-[Isi berdasarkan kode, pengujian, Git, atau screenshot nyata]
+Kembangkan topik pada penjelasan umum menjadi narasi yang menjelaskan cara kerja, pihak yang terlibat, aturan, hasil, dan manfaat atau keterbatasannya. Hubungkan setiap rincian dengan bukti kode, pengujian, atau tangkapan layar, lalu jelaskan arti bukti bagi pembaca sebelum menampilkan tabel atau rincian teknis.
+
+[Isi narasi berdasarkan bukti nyata dan cantumkan referensinya. Tandai hal yang belum diperiksa sebagai Belum terverifikasi beserta dampaknya terhadap kesimpulan.]
 
 ## Risiko dan tindak lanjut
 
-[Isi]
+Jelaskan masalah dan ketidakpastian beserta dampaknya terhadap pekerjaan, data, atau layanan. Uraikan tindak lanjut yang diperlukan, pihak yang bertanggung jawab, alasan prioritas, serta keputusan pimpinan jika ada tanpa mengarang jadwal atau persetujuan.
+
+[Tulis uraian lengkap sesuai petunjuk berdasarkan bukti aplikasi. Jika tidak berlaku, tulis N/A beserta alasan.]
 
 ## Riwayat revisi
 
-[Isi]
+- 2026-10-29: Menambahkan penjelasan umum sesuai topik dan panduan narasi untuk pembaca pimpinan; isi aplikasi tetap harus diverifikasi.
+
+[Tulis uraian lengkap sesuai petunjuk berdasarkan bukti aplikasi. Jika tidak berlaku, tulis N/A beserta alasan.]
