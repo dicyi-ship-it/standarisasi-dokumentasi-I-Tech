@@ -20,3 +20,13 @@ Setiap dokumen Markdown dan laporan harus memiliki penjelasan umum dengan bahasa
 12. Laporkan risiko dan bukti secara jujur, termasuk pemeriksaan yang belum dijalankan.
 
 Jangan mengakses produksi, menjalankan pemindaian aktif, mengubah database destruktif, atau melakukan deployment tanpa izin. Tidak boleh memasukkan rahasia ke repository. Dokumen ISO adalah adaptasi internal, bukan bukti sertifikasi.
+
+<!-- antislop:start -->
+## Anti-slop wajib saat generate
+
+Sebelum merencanakan atau menghasilkan aplikasi, UI, teks, komentar kode, Markdown, flowchart, atau PDF, baca `standards/anti-slop.md` dan `standards/anti-slop/antislop.md`. Gunakan salinan single-file lokal dengan sumber/lisensi pada `standards/anti-slop/README.md`; tidak ada skill opsional yang terpasang. Tidak perlu menjalankan wizard atau installer global.
+
+Mode generasi proyek adalah during sesuai kebijakan integrasi I-Tech. Nyatakan mode dan sumber kebijakan saat mulai; pilihan eksplisit pengguna per sesi didahulukan. Terapkan aturan selama pengerjaan, bukan hanya pada ringkasan akhir. Untuk UI, gunakan arah pemilik/DESIGN.md; tanpa arah yang cukup, tandai draft without direction. Jangan mengarang role tamu, fitur, hasil uji, atau klaim ISO. Struktur PDF dan bukti audit wajib tetap lengkap.
+
+Sebelum penyerahan, jalankan empat blok Delivery Gate, catat setiap butir yang berlaku dengan bukti dan N/A beralasan sesuai `templates/reports/ANTI-SLOP-REVIEW.template.md`, lalu tampilkan ringkasannya. Pemeriksaan wajib yang belum dilakukan bukan PASS; hasil dengan FAIL tetap DRAFT. Saat standar disalin ke aplikasi, sertakan salinan aturan/lisensi dan sesuaikan pointer ke lokasi sebenarnya.
+<!-- antislop:end -->

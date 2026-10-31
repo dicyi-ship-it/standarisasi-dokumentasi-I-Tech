@@ -4,6 +4,7 @@ Dokumen ini mencatat perubahan standar dan template agar pembaca mengetahui pedo
 
 ## 2026-10-31
 
+- Mewajibkan anti-slop selama generasi aplikasi, UI, teks, komentar kode, Markdown, flowchart dan PDF. Menyertakan salinan resmi single-file versi 3.2.24 pada commit upstream tetap beserta lisensi MIT, hash, kebijakan mode during, dan template Delivery Gate empat blok dengan bukti serta N/A beralasan.
 - Menjadikan pedoman inti lintas aplikasi/teknologi dengan narasi umum untuk pembaca IT dan non-IT, tanpa menghilangkan rincian bukti.
 - Menambahkan daftar acuan ISO beredisi dan sumber resmi, aturan verifikasi klausul/amendemen, status penilaian, kesenjangan dan tindak lanjut. Tidak mengklaim pemenuhan klausul yang belum diperiksa.
 - Menyusun ulang 13 template ISO dengan isi khusus topik, identitas seragam, pemetaan eksplisit, bukti, risiko dan riwayat revisi.

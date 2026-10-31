@@ -4,6 +4,8 @@
 
 Laporan ini membantu pembaca IT maupun non-IT memahami tujuan aplikasi, pekerjaan, cara penggunaan, hasil, dan risiko. Isi umum dijelaskan sebelum rincian teknis. Markdown ini merupakan sumber PDF; semua fakta, ID, versi, dan status harus konsisten dengan dokumen aplikasi. Ikuti [standar PDF](../../standards/accountability-report.md), [kebijakan dokumentasi](../../standards/documentation.md), [pemetaan ISO](../../standards/iso-mapping.md), dan [template alur per role](ALUR-PROGRAM-PER-ROLE.template.md).
 
+Gunakan [anti-slop](../../standards/anti-slop.md) selama penyusunan, kemudian catat Delivery Gate dengan [template pemeriksaan](ANTI-SLOP-REVIEW.template.md). Penerapan anti-slop wajib menjaga struktur bab, penjelasan umum, rincian role/fitur/flowchart/output, dan bukti audit.
+
 ## Sampul
 
 [Isi nama/judul laporan, aplikasi, organisasi/unit, periode, penyusun, tanggal terbit, versi dokumen, versi aplikasi, klasifikasi, dan status DRAFT atau status pengesahan nyata. Logo hanya jika diizinkan.]
@@ -132,5 +134,7 @@ Simpulkan capaian, kesenjangan dan batas kesimpulan berdasarkan bukti. Sebut tin
 ## Bab 15. Lampiran dan Glosarium
 
 Sertakan daftar bukti ber-ID dengan lokasi, versi/tanggal, lingkungan, metode, pemeriksa, hasil aktual, dan batasnya; matriks keterlacakan KEB/ISO → ROL/FIT → PRO/diagram → OUT → UJI/BKT → TEM/tindakan; rincian teknis, gambar, dan arti istilah. Referensi kode/log panjang ditempatkan di sini, dengan informasi sensitif disamarkan.
+
+Lampirkan atau rujuk catatan anti-slop berisi versi/commit aturan, mode dan cakupan, ringkasan empat blok, pemeriksaan per butir beserta bukti/N/A beralasan, temuan, serta hasil pemeriksaan ulang. Catatan yang belum diisi bukan PASS dan tidak menjadi bukti kesesuaian ISO.
 
 [Isi narasi berdasarkan bukti. Informasi belum diketahui: Belum terverifikasi beserta dampak dan pemeriksaan lanjutan. Bagian tidak berlaku: N/A dengan alasan dan sumber pemeriksaan. Pertahankan bab dan urutannya.]

@@ -4,6 +4,7 @@ Standar pusat menyatukan cara penyusunan dokumen, pemeriksaan, dan laporan agar 
 
 - [Kebijakan dokumentasi](documentation.md): bahasa umum, role/fitur/flowchart, pengendalian dan keterlacakan bukti.
 - [Pemetaan ISO](iso-mapping.md): acuan/edisi, verifikasi klausul, penerapan dan status penilaian.
+- [Anti-slop wajib](anti-slop.md): aturan lokal yang harus dibaca selama generasi aplikasi/dokumen, sumber upstream tetap, dan pemeriksaan empat blok berbukti.
 - `security.md`: audit keamanan dan validasi temuan.
 - `visual-evidence.md`: screenshot Chromium/Playwright.
 - `git-traceability.md`: histori dan keterlacakan Git.

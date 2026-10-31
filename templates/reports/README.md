@@ -11,4 +11,6 @@ Template ini digunakan untuk menyusun laporan yang dipahami pimpinan dan tetap d
 5. Hubungkan ID kebutuhan/pemetaan, role/fitur, proses/diagram, output, pengujian, bukti dan temuan. Bedakan pemeriksaan kode, pengujian, serta ketidakpastian.
 6. Render diagram dan ekspor PDF sesuai [standar laporan](../../standards/accountability-report.md). Periksa isi dan seluruh halaman cetak sebelum penyerahan; status tetap DRAFT sampai pengesahan nyata.
 
+Selama seluruh langkah tersebut, baca dan gunakan [anti-slop](../../standards/anti-slop.md) serta [aturan lokal upstream](../../standards/anti-slop/antislop.md) dalam mode during. Sebelum penyerahan, isi [catatan Delivery Gate](ANTI-SLOP-REVIEW.template.md) dengan bukti setiap butir yang berlaku dan sertakan pada lampiran/rujukan laporan. Aturan UI yang tidak berlaku diberi N/A beralasan; pemeriksaan wajib yang belum dilakukan bukan PASS. Jangan menghapus struktur laporan, fitur, flowchart, atau bukti atas nama anti-slop.
+
 Untuk melihat pola narasi, fitur, diagram, output dan keterbatasan pemetaan, baca [contoh sintetis](CONTOH-SINTETIS.md). Contoh tersebut bukan hasil audit dan tidak menetapkan role atau fitur yang harus ada pada aplikasi.

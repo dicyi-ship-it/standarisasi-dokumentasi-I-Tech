@@ -32,4 +32,6 @@ Gunakan alat ekspor yang sudah tersedia pada aplikasi/organisasi; repository ini
 
 Periksa seluruh halaman: urutan bab, daftar isi, nomor halaman, header/footer, pemotongan tabel, resolusi screenshot, keterbacaan flowchart, tautan, dan penyamaran data. Cocokkan daftar role dan fitur dengan sumber. Peninjau IT memeriksa ketepatan/bukti; pembaca non-IT memeriksa kejelasan maksud dan dampak. Catat hasil serta bagian yang belum diperiksa secara jujur.
 
+Gunakan [anti-slop](anti-slop.md) selama penyusunan sumber Markdown dan PDF. Sertakan catatan empat blok Delivery Gate pada Bab 15 atau rujuk berkas pemeriksaannya; gunakan [template pemeriksaan](../templates/reports/ANTI-SLOP-REVIEW.template.md). Pertahankan struktur 15 bab, narasi, flowchart tiap role, dan bukti. Aturan komposisi halaman UI tidak digunakan untuk menghapus bab audit. Jangan menyatakan laporan final ketika pemeriksaan yang berlaku masih FAIL atau belum dilakukan.
+
 Hanya gunakan bukti nyata dan data sintetis yang diberi label. Jangan menciptakan tanda tangan, persetujuan, hasil audit, atau klaim backup. PDF tetap DRAFT sampai disahkan. Simpan sumber Markdown dan PDF pada `docs/reports/` aplikasi, misalnya `LAPORAN-[aplikasi]-[versi]-[tanggal].md` dan `.pdf`, dengan lokasi bukti yang terlindungi sesuai klasifikasi. Arsipkan revisi dan distribusikan hanya kepada pihak yang berhak.

@@ -33,6 +33,16 @@ Pilih acuan ISO menurut kebutuhan organisasi dan relevansi, menggunakan [pedoman
 
 Jelaskan metode pemeriksaan kode, pengujian, visual, operasional, dan keterangan pihak terkait yang tersedia. Catat lokasi bukti, penanggung jawab, pemeriksaan belum dilakukan, dampak ketidakpastian, dan tindak lanjut. Jangan menaruh rahasia pada konteks proyek.
 
+## Penggunaan anti-slop
+
+Anti-slop wajib selama generasi aplikasi dan dokumen menurut [kebijakan integrasi](../standards/anti-slop.md). Catat versi/commit upstream dari [identitas salinan](../standards/anti-slop/README.md), lokasi kebijakan dan berkas aturan lokal, serta pointer pada instruksi agen aplikasi. Sesuaikan tautan ketika template disalin. Mode generasi adalah during kecuali pengguna memilih mode sesi lain secara eksplisit; perubahan ini tidak mengubah pengaturan global.
+
+- Versi/commit aturan anti-slop dan standar pusat: [isi]
+- Lokasi aturan, lisensi, dan pointer instruksi agen: [isi; verifikasi tersedia dan sudah dibaca]
+- Mode sesi dan dasar pemilihannya: [during berdasarkan kebijakan proyek atau pilihan eksplisit pengguna]
+- Arah pemilik/DESIGN.md untuk pekerjaan UI: [lokasi arahan aktual; jika belum ada, nyatakan draft without direction]
+- Lokasi catatan Delivery Gate, versi hasil, tanggal/pemeriksa: [isi berdasarkan pemeriksaan; belum dilakukan bukan PASS]
+
 ## Riwayat revisi
 
 Catat perubahan konteks dan sumbernya; jangan menganggap riwayat template sebagai kejadian aplikasi.

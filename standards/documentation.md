@@ -45,3 +45,9 @@ Gunakan judul berbahasa Indonesia dengan istilah teknis bila membantu. Tambahkan
 ## Pemeriksaan kelengkapan akhir
 
 Sebelum penyerahan, cocokkan inventaris role, fitur, proses, output, flowchart, dan hasil tes. Tidak boleh ada role tambahan tanpa bukti, fitur tanpa penjelasan alur, diagram tanpa sumber, atau klaim pemenuhan ISO tanpa klausul dan bukti. Bagian tidak berlaku tetap dijelaskan alasannya; informasi yang belum diperiksa ditandai Belum terverifikasi beserta dampak dan rencana pemeriksaannya. Periksa tautan, ID, referensi gambar, serta kesamaan versi pada Markdown dan PDF. Pemeriksaan struktur tidak menggantikan penilaian isi oleh pembaca IT dan non-IT.
+
+## Anti-slop selama penulisan
+
+Baca dan terapkan [kebijakan anti-slop](anti-slop.md) serta [aturan upstream lokal](anti-slop/antislop.md) sebelum menyusun isi. Gunakan mode during untuk generasi, bahasa spesifik dan alami, serta klaim yang memiliki sumber. Jangan mengurangi esensi, penjelasan bagi non-IT, rincian fitur/output, atau bukti untuk mengejar tulisan singkat. Label template, ilustrasi, dan ketidakpastian tetap terlihat. Salinan upstream dipertahankan utuh beserta lisensinya.
+
+Sebelum penyerahan, catat empat blok Delivery Gate menggunakan [template pemeriksaan](../templates/reports/ANTI-SLOP-REVIEW.template.md). Periksa setiap butir yang berlaku dengan bukti; bagian UI yang tidak relevan pada perubahan dokumentasi diberi N/A dengan alasan. Pemeriksaan yang wajib tetapi belum dijalankan tidak boleh ditulis PASS. Catatan gate menjadi lampiran/rujukan laporan, bukan pengganti pemetaan ISO atau pengesahan dokumen.
