@@ -1,5 +1,7 @@
 # Konteks Proyek — [nama aplikasi]
 
+Sebelum mengisi template ini untuk aplikasi, wajib lulus [prasyarat Anti-slop dan Ponytail](../standards/generation-prerequisites.md). Jika salah satu plugin belum terpasang/aktif/terbaca/digunakan atau statusnya belum dapat diverifikasi, tolak pengisian termasuk draf; jangan mengisi template untuk menganggap prasyarat lulus.
+
 Status: TEMPLATE. Jelaskan aplikasi, kebutuhan organisasi, pengguna, manfaat yang diharapkan, serta batas pemeriksaan dengan bahasa yang dipahami pembaca IT dan non-IT. Ganti petunjuk dengan fakta; jangan mengisi versi, role, fitur, atau persetujuan berdasarkan dugaan.
 
 ## Identitas dan tanggung jawab
@@ -33,13 +35,17 @@ Pilih acuan ISO menurut kebutuhan organisasi dan relevansi, menggunakan [pedoman
 
 Jelaskan metode pemeriksaan kode, pengujian, visual, operasional, dan keterangan pihak terkait yang tersedia. Catat lokasi bukti, penanggung jawab, pemeriksaan belum dilakukan, dampak ketidakpastian, dan tindak lanjut. Jangan menaruh rahasia pada konteks proyek.
 
-## Penggunaan anti-slop
+## Bukti prasyarat plugin dan penggunaannya
 
-Anti-slop wajib selama generasi aplikasi dan dokumen menurut [kebijakan integrasi](../standards/anti-slop.md). Catat versi/commit upstream dari [identitas salinan](../standards/anti-slop/README.md), lokasi kebijakan dan berkas aturan lokal, serta pointer pada instruksi agen aplikasi. Sesuaikan tautan ketika template disalin. Mode generasi adalah during kecuali pengguna memilih mode sesi lain secara eksplisit; perubahan ini tidak mengubah pengaturan global.
+Isi catatan hanya setelah kedua plugin terverifikasi melalui host dan core/skill yang diperlukan sudah dibaca. Anti-slop during dan Ponytail full wajib dipakai bersama selama generasi. Bukti cache, clone, salinan aturan atau tautan sumber saja tidak cukup. Sesuaikan tautan ketika template disalin; bukti plugin tidak menjadi bukti fitur aplikasi atau pemenuhan ISO.
 
-- Versi/commit aturan anti-slop dan standar pusat: [isi]
-- Lokasi aturan, lisensi, dan pointer instruksi agen: [isi; verifikasi tersedia dan sudah dibaca]
-- Mode sesi dan dasar pemilihannya: [during berdasarkan kebijakan proyek atau pilihan eksplisit pengguna]
+| Plugin/sumber resmi | Versi dan bukti host terpasang/aktif | Core/skill yang dibaca dan lokasinya | Waktu/sesi pemeriksaan | Mode dan penggunaan aktual |
+| --- | --- | --- | --- | --- |
+| Anti-slop dari miqdadbadjuber/anti-slop | [isi bukti aktual; belum pasti berarti TOLAK] | [isi] | [isi] | during; [penerapan aktual] |
+| Ponytail dari DietrichGebert/ponytail | [isi bukti aktual; belum pasti berarti TOLAK] | [isi] | [isi] | full; [penerapan aktual] |
+
+- Versi/commit standar pusat dan salinan acuan audit Anti-slop: [isi terpisah dari versi plugin yang aktif]
+- Lokasi kebijakan, lisensi acuan, dan pointer instruksi agen: [isi]
 - Arah pemilik/DESIGN.md untuk pekerjaan UI: [lokasi arahan aktual; jika belum ada, nyatakan draft without direction]
 - Lokasi catatan Delivery Gate, versi hasil, tanggal/pemeriksa: [isi berdasarkan pemeriksaan; belum dilakukan bukan PASS]
 

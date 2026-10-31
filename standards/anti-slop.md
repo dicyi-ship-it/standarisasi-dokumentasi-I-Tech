@@ -1,14 +1,14 @@
 # Penggunaan Wajib Anti-slop
 
-Anti-slop digunakan selama pembuatan atau perubahan aplikasi, antarmuka, teks, komentar kode, Markdown, flowchart, dan laporan PDF. Tujuannya agar hasil menjelaskan kebutuhan nyata, dapat digunakan, dan memiliki bukti. Agen wajib membaca [aturan resmi yang disimpan lokal](anti-slop/antislop.md), bukan hanya menyebut nama anti-slop dalam laporan. Sumber, versi, hash, dan lisensinya tercatat pada [identitas salinan](anti-slop/README.md).
+Anti-slop digunakan selama pembuatan atau perubahan aplikasi, antarmuka, teks, komentar kode, Markdown, flowchart, dan laporan PDF. Tujuannya agar hasil menjelaskan kebutuhan nyata, dapat digunakan, dan memiliki bukti. Untuk generasi dokumen standar, wajib lulus [prasyarat plugin Anti-slop dan Ponytail](generation-prerequisites.md) sebelum merencanakan isi atau menulis. Baca core/skill dari plugin yang aktif. [Salinan aturan lokal](anti-slop/antislop.md) dengan [identitas sumber](anti-slop/README.md) adalah acuan audit, bukan pengganti plugin.
 
 ## Aktivasi pada proyek
 
-Untuk pekerjaan generasi, kebijakan I-Tech menetapkan mode **during**: aturan diterapkan saat merencanakan, menulis, dan memeriksa hasil. Nyatakan di awal bahwa anti-slop aktif dalam mode during berdasarkan kebijakan proyek. Ini penyesuaian lokal atas pemilihan mode upstream agar kewajiban saat generate tidak bergantung pada pertanyaan instalasi setiap sesi. Pilihan mode yang dinyatakan pengguna untuk suatu sesi tetap didahulukan. Mode after digunakan jika pengguna meminta audit terpisah atas hasil yang sudah ada; temuan tidak otomatis menjadi izin mengubah di luar lingkup permintaan.
+Untuk generasi dokumen standar, kebijakan I-Tech menetapkan Anti-slop **during** dan Ponytail **full**. Aturan diterapkan saat merencanakan, menulis, dan memeriksa hasil. Nyatakan mode serta bukti plugin aktif di awal. Mode after boleh digunakan untuk audit terpisah atas hasil yang sudah ada, tetapi tidak meluluskan permohonan generate. Permintaan mematikan atau melewati salah satu plugin membuat generasi ditolak sesuai prasyarat.
 
-Integrasi memakai single-file dengan pointer pada AGENTS.md dan instruksi Copilot. Tidak diperlukan wizard pemasangan tambahan, skill opsional, akun layanan, atau pengaturan global. Jangan menjalankan perintah instalasi/pembaruan dalam salinan upstream sebagai bagian generasi. Jika salinan tidak tersedia atau tidak dapat dibaca, laporkan kekurangan tersebut dan pertahankan hasil sebagai DRAFT; jangan mengklaim pemeriksaan telah dilakukan.
+AGENTS.md dan instruksi Copilot mewajibkan pemeriksaan instalasi/aktivasi melalui host, pembacaan core/skill terkait dan penggunaan kedua plugin pada sesi aktif. Jangan menjalankan instalasi/pembaruan diam-diam. Plugin belum terpasang, nonaktif, tidak terbaca, tidak digunakan, atau status yang belum pasti berarti TOLAK generasi, termasuk draf; jangan membuat hasil dahulu lalu hanya memberinya label DRAFT. Setelah aktivasi, periksa ulang pada sesi yang dapat memuat kedua plugin.
 
-Saat membawa standar ini ke repository aplikasi, sertakan kebijakan ini dan direktori `anti-slop/` beserta lisensinya. Sesuaikan pointer pada instruksi agen aplikasi dan catat versi standar pusat serta commit upstream di PROJECT_CONTEXT. Tautan sumber saja tidak menggantikan pembacaan aturan.
+Saat membawa standar ini ke repository aplikasi, sertakan kebijakan prasyarat, kebijakan ini dan direktori `anti-slop/` beserta lisensinya. Sesuaikan pointer pada instruksi agen aplikasi. Catat versi standar pusat, versi/sumber kedua plugin, bukti host, mode dan waktu pemeriksaan di PROJECT_CONTEXT setelah prasyarat lulus. Tautan sumber maupun salinan berkas saja tidak meluluskan instalasi/aktivasi.
 
 ## Penerapan sesuai hasil yang dibuat
 

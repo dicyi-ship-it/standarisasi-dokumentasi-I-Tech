@@ -1,5 +1,7 @@
 # Laporan Pertanggungjawaban Aplikasi — [nama aplikasi]
 
+Sebelum mengisi, merevisi atau mengekspor laporan aplikasi, wajib lulus [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md). Jika salah satu plugin belum terpasang/aktif/terbaca/digunakan atau statusnya belum dapat diverifikasi, tolak generasi termasuk draf dan isi melalui chat. Salinan lokal bukan pengganti plugin. Status DRAFT berikut tidak membolehkan melewati prasyarat.
+
 > TEMPLATE / DRAFT. Ganti petunjuk dengan uraian berdasarkan bukti. Belum merupakan hasil pemeriksaan aplikasi, pengesahan, atau bukti sertifikasi ISO.
 
 Laporan ini membantu pembaca IT maupun non-IT memahami tujuan aplikasi, pekerjaan, cara penggunaan, hasil, dan risiko. Isi umum dijelaskan sebelum rincian teknis. Markdown ini merupakan sumber PDF; semua fakta, ID, versi, dan status harus konsisten dengan dokumen aplikasi. Ikuti [standar PDF](../../standards/accountability-report.md), [kebijakan dokumentasi](../../standards/documentation.md), [pemetaan ISO](../../standards/iso-mapping.md), dan [template alur per role](ALUR-PROGRAM-PER-ROLE.template.md).

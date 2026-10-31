@@ -17,6 +17,8 @@ last_updated: null
 
 > Template internal; belum berisi hasil pemeriksaan aplikasi dan bukan bukti sertifikasi ISO.
 
+Sebelum mengisi atau merevisi dokumen aplikasi ini, wajib lulus [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md). Jika salah satu plugin belum terpasang/aktif/terbaca/digunakan atau statusnya belum dapat diverifikasi, tolak generasi termasuk draf dan isi melalui chat. Salinan aturan lokal bukan pengganti plugin.
+
 ## Penjelasan umum
 
 API adalah penghubung pertukaran data antar-sistem. Jelaskan siapa yang bertukar informasi, tujuan pertukaran, data yang dikirim dan diterima, serta akibat ketika proses gagal, sebelum menyajikan alamat layanan dan format pesan untuk tim teknis.

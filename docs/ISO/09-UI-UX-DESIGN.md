@@ -17,6 +17,8 @@ last_updated: null
 
 > Template internal; belum berisi hasil pemeriksaan aplikasi dan bukan bukti sertifikasi ISO.
 
+Sebelum mengisi atau merevisi dokumen aplikasi ini, wajib lulus [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md). Jika salah satu plugin belum terpasang/aktif/terbaca/digunakan atau statusnya belum dapat diverifikasi, tolak generasi termasuk draf dan isi melalui chat. Salinan aturan lokal bukan pengganti plugin.
+
 ## Penjelasan umum
 
 Rancangan tampilan dan pengalaman pengguna menjelaskan bagaimana pengguna menemukan menu, memasukkan informasi, memahami pesan, dan menyelesaikan pekerjaan. Kaitkan rancangan dengan kebutuhan pengguna dan kendala yang teramati; kemudahan penggunaan harus didukung hasil pemeriksaan, bukan hanya penilaian sepintas.

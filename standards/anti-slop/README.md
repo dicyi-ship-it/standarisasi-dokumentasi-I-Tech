@@ -17,6 +17,6 @@ Direktori ini menyimpan salinan lokal aturan resmi [miqdadbadjuber/anti-slop](ht
 
 ## Cara penggunaan dan pembaruan
 
-Gunakan varian single-file yang didukung upstream. Skill tambahan, pemasang CLI, dan dependensi runtime tidak dipasang. Contoh jalur `skills/` dalam salinan upstream bukan daftar skill yang terpasang di proyek ini. Baca [kebijakan integrasi I-Tech](../anti-slop.md) bersama aturan asli; kebijakan tersebut menjelaskan cakupan, mode generasi, dan format bukti pemeriksaan.
+Salinan single-file ini dipertahankan sebagai acuan audit versi sumber, bukan instalasi plugin. Contoh jalur `skills/` dalam salinan upstream bukan bukti skill terpasang pada host. Kebijakan I-Tech sekarang mewajibkan plugin Anti-slop dan Ponytail terpasang, aktif, dapat dibaca dan digunakan; tanpa itu generasi ditolak, termasuk draf. Baca [prasyarat generasi](../generation-prerequisites.md) dan [kebijakan integrasi](../anti-slop.md). Salinan serta hash di atas tetap utuh untuk keterlacakan; versi plugin yang benar-benar digunakan dicatat terpisah.
 
 Pembaruan dilakukan sebagai perubahan repository yang ditinjau: pilih commit sumber, periksa perbedaan aturan dan lisensi, ganti salinan, hitung ulang hash, perbarui identitas di atas dan changelog, lalu periksa kembali instruksi agen. Jangan menjalankan pembaruan otomatis atau installer global dari sesi generasi aplikasi. Jangan mengedit salinan upstream untuk menyisipkan aturan internal; tulis penyesuaian pada kebijakan integrasi.

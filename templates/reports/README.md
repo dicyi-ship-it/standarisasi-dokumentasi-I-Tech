@@ -4,6 +4,8 @@ Template ini digunakan untuk menyusun laporan yang dipahami pimpinan dan tetap d
 
 ## Cara menggunakan
 
+Sebelum menjalankan langkah pengisian/revisi/ekspor, wajib lulus [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md). Plugin belum terpasang, nonaktif, tidak terbaca/digunakan atau status belum dapat diverifikasi berarti TOLAK, termasuk draf dan isi melalui chat. Jangan memakai salinan lokal sebagai pengganti plugin. Pemeriksaan host harus dilakukan ulang pada sesi generasi.
+
 1. Isi [konteks proyek](../PROJECT_CONTEXT.template.md) pada aplikasi dan periksa role, fitur, versi, serta batas lingkungannya.
 2. Isi dokumen [ISO](../../docs/ISO/00-DOCUMENT-CONTROL.md) yang relevan dengan petunjuk khusus tiap topik; verifikasi acuan melalui [pedoman ISO](../../standards/iso-mapping.md).
 3. Salin [laporan induk](LAPORAN-PERTANGGUNGJAWABAN.template.md) ke `docs/reports/` aplikasi. Pertahankan urutan bagian dan bab. Ganti petunjuk dengan narasi dan bukti; bagian tidak berlaku diberi alasan.
@@ -11,6 +13,6 @@ Template ini digunakan untuk menyusun laporan yang dipahami pimpinan dan tetap d
 5. Hubungkan ID kebutuhan/pemetaan, role/fitur, proses/diagram, output, pengujian, bukti dan temuan. Bedakan pemeriksaan kode, pengujian, serta ketidakpastian.
 6. Render diagram dan ekspor PDF sesuai [standar laporan](../../standards/accountability-report.md). Periksa isi dan seluruh halaman cetak sebelum penyerahan; status tetap DRAFT sampai pengesahan nyata.
 
-Selama seluruh langkah tersebut, baca dan gunakan [anti-slop](../../standards/anti-slop.md) serta [aturan lokal upstream](../../standards/anti-slop/antislop.md) dalam mode during. Sebelum penyerahan, isi [catatan Delivery Gate](ANTI-SLOP-REVIEW.template.md) dengan bukti setiap butir yang berlaku dan sertakan pada lampiran/rujukan laporan. Aturan UI yang tidak berlaku diberi N/A beralasan; pemeriksaan wajib yang belum dilakukan bukan PASS. Jangan menghapus struktur laporan, fitur, flowchart, atau bukti atas nama anti-slop.
+Setelah prasyarat lulus, baca [kebijakan Anti-slop](../../standards/anti-slop.md) serta core/skill plugin yang aktif dan gunakan Anti-slop during bersama Ponytail full. Sebelum penyerahan, isi [catatan Delivery Gate](ANTI-SLOP-REVIEW.template.md) dengan bukti plugin dan bukti setiap butir yang berlaku, lalu sertakan pada lampiran/rujukan laporan. Aturan UI yang tidak berlaku boleh diberi N/A beralasan, tetapi kewajiban kedua plugin tidak boleh N/A. Jangan menghapus struktur laporan, fitur, flowchart, atau bukti atas nama penyederhanaan.
 
 Untuk melihat pola narasi, fitur, diagram, output dan keterbatasan pemetaan, baca [contoh sintetis](CONTOH-SINTETIS.md). Contoh tersebut bukan hasil audit dan tidak menetapkan role atau fitur yang harus ada pada aplikasi.

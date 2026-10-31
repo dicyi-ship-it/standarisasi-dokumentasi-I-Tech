@@ -17,6 +17,8 @@ last_updated: null
 
 > Template internal; belum berisi hasil pemeriksaan aplikasi dan bukan bukti sertifikasi ISO.
 
+Sebelum mengisi atau merevisi dokumen aplikasi ini, wajib lulus [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md). Jika salah satu plugin belum terpasang/aktif/terbaca/digunakan atau statusnya belum dapat diverifikasi, tolak generasi termasuk draf dan isi melalui chat. Salinan aturan lokal bukan pengganti plugin.
+
 ## Penjelasan umum
 
 Proses bisnis menjelaskan urutan pekerjaan dari kebutuhan awal sampai hasil diterima, termasuk pembagian tanggung jawab dan persetujuan antarperan. Uraian harus membantu pimpinan memahami titik pemeriksaan, ketergantungan antarbagian, dan akibat ketika suatu tahap tertunda atau gagal.

@@ -1,5 +1,7 @@
 # Instruksi AI I-Tech
 
+Sebelum semua permohonan generate dokumen standar aplikasi, jalankan `standards/generation-prerequisites.md`. Wajib buktikan plugin Anti-slop dan Ponytail terpasang, aktif, dapat dibaca, dan digunakan pada sesi ini. Jika salah satu belum memenuhi atau statusnya belum dapat diverifikasi, TOLAK generasi termasuk draf, isi melalui chat, dan ekspor. Salinan aturan/cache bukan bukti plugin aktif. Jangan mulai merencanakan isi atau menulis dokumen. Laporkan alasan dan langkah aktivasi; pemeliharaan standar pusat yang diminta eksplisit mengikuti batas pada pedoman tersebut.
+
 Baca PROJECT_CONTEXT.md pada aplikasi, kemudian standar pusat. Periksa kode, route, migration, konfigurasi, status Git, dan pengujian sebelum membuat klaim. Jangan mengarang fitur, hasil audit, screenshot, versi, atau persetujuan.
 
 ## Alur kerja
@@ -24,9 +26,9 @@ Jangan mengakses produksi, menjalankan pemindaian aktif, mengubah database destr
 <!-- antislop:start -->
 ## Anti-slop wajib saat generate
 
-Sebelum merencanakan atau menghasilkan aplikasi, UI, teks, komentar kode, Markdown, flowchart, atau PDF, baca `standards/anti-slop.md` dan `standards/anti-slop/antislop.md`. Gunakan salinan single-file lokal dengan sumber/lisensi pada `standards/anti-slop/README.md`; tidak ada skill opsional yang terpasang. Tidak perlu menjalankan wizard atau installer global.
+Sebelum merencanakan atau menghasilkan aplikasi, UI, teks, komentar kode, Markdown, flowchart, atau PDF, baca `standards/anti-slop.md`. Untuk generasi dokumen standar, plugin Anti-slop dan Ponytail harus lulus prasyarat terlebih dahulu; baca core/skill dari plugin yang aktif. Salinan single-file pada `standards/anti-slop/antislop.md` beserta sumber/lisensinya hanya acuan audit dan tidak menggantikan instalasi plugin. Jangan menjalankan wizard atau installer global secara otomatis.
 
-Mode generasi proyek adalah during sesuai kebijakan integrasi I-Tech. Nyatakan mode dan sumber kebijakan saat mulai; pilihan eksplisit pengguna per sesi didahulukan. Terapkan aturan selama pengerjaan, bukan hanya pada ringkasan akhir. Untuk UI, gunakan arah pemilik/DESIGN.md; tanpa arah yang cukup, tandai draft without direction. Jangan mengarang role tamu, fitur, hasil uji, atau klaim ISO. Struktur PDF dan bukti audit wajib tetap lengkap.
+Mode generasi dokumen adalah Anti-slop during dan Ponytail full. Nyatakan mode dan bukti plugin saat mulai. Permintaan mematikan/melewati salah satunya tidak meluluskan prasyarat; mode audit terpisah tidak mengizinkan generasi. Terapkan keduanya selama pengerjaan, bukan hanya pada ringkasan akhir. Untuk UI, gunakan arah pemilik/DESIGN.md; tanpa arah yang cukup, tandai draft without direction. Jangan mengarang role tamu, fitur, hasil uji, atau klaim ISO. Struktur PDF dan bukti audit wajib tetap lengkap.
 
 Sebelum penyerahan, jalankan empat blok Delivery Gate, catat setiap butir yang berlaku dengan bukti dan N/A beralasan sesuai `templates/reports/ANTI-SLOP-REVIEW.template.md`, lalu tampilkan ringkasannya. Pemeriksaan wajib yang belum dilakukan bukan PASS; hasil dengan FAIL tetap DRAFT. Saat standar disalin ke aplikasi, sertakan salinan aturan/lisensi dan sesuaikan pointer ke lokasi sebenarnya.
 <!-- antislop:end -->

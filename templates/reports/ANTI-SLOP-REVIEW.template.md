@@ -1,10 +1,12 @@
 # Pemeriksaan Anti-slop
 
+Pengisian catatan aplikasi ini hanya boleh dimulai setelah [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md) lulus. Jika salah satu plugin belum memenuhi atau belum dapat diverifikasi, tolak generasi termasuk draf. N/A pada aturan UI di bawah tidak meluluskan plugin yang hilang.
+
 Status: TEMPLATE / DRAFT. Catatan ini menjelaskan bagian hasil yang diperiksa, aturan yang digunakan, bukti, dan batas kesimpulannya. Ganti petunjuk berdasarkan pemeriksaan nyata; template kosong tidak berarti PASS. Ikuti [kebijakan integrasi](../../standards/anti-slop.md) dan [Delivery Gate upstream](../../standards/anti-slop/antislop.md).
 
 ## Identitas dan cakupan
 
-Jelaskan aplikasi/dokumen yang berubah, tujuan perubahan, bagian yang diperiksa, dan bagian di luar lingkup. Cantumkan versi dokumen/aplikasi, commit sumber, lingkungan, tanggal, pemeriksa, mode during/after dan dasar pemilihannya. Catat commit/hash aturan dari identitas salinan, bukan hanya nama anti-slop.
+Jelaskan aplikasi/dokumen yang berubah, tujuan perubahan, bagian yang diperiksa, dan bagian di luar lingkup. Cantumkan versi dokumen/aplikasi, commit sumber, lingkungan, tanggal, pemeriksa, bukti host bahwa kedua plugin terpasang/aktif, versi/sumber, core/skill yang dibaca dan penggunaannya. Catat Anti-slop during serta Ponytail full untuk generasi; audit terpisah boleh menyebut mode auditnya tanpa menjadi izin generate. Catat commit/hash salinan acuan terpisah dari versi plugin aktif.
 
 [Isi identitas, cakupan, versi sumber, lokasi hasil, dan batas pemeriksaan.]
 

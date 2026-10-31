@@ -17,6 +17,8 @@ last_updated: null
 
 > Template internal; belum berisi hasil pemeriksaan aplikasi dan bukan bukti sertifikasi ISO.
 
+Sebelum mengisi atau merevisi dokumen aplikasi ini, wajib lulus [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md). Jika salah satu plugin belum terpasang/aktif/terbaca/digunakan atau statusnya belum dapat diverifikasi, tolak generasi termasuk draf dan isi melalui chat. Salinan aturan lokal bukan pengganti plugin.
+
 ## Penjelasan umum
 
 Kamus data menyamakan pengertian informasi yang digunakan aplikasi agar pengguna dan pimpinan tidak berbeda menafsirkan hasil. Jelaskan makna data, satuan, sumber, dan aturan pengisiannya, kemudian hubungkan dengan kolom dan format penyimpanan yang ditemukan.

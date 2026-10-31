@@ -17,6 +17,8 @@ last_updated: null
 
 > Template internal; belum berisi hasil pemeriksaan aplikasi dan bukan bukti sertifikasi ISO.
 
+Sebelum mengisi atau merevisi dokumen aplikasi ini, wajib lulus [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md). Jika salah satu plugin belum terpasang/aktif/terbaca/digunakan atau statusnya belum dapat diverifikasi, tolak generasi termasuk draf dan isi melalui chat. Salinan aturan lokal bukan pengganti plugin.
+
 ## Penjelasan umum
 
 Dokumentasi kode sumber menjelaskan bagian program yang menjalankan pekerjaan aplikasi agar dapat dipelihara dan ditelusuri. Dahulukan penjelasan fungsi utama, hubungan antarmodul, dan dampaknya bagi layanan; nama file dan fungsi program menjadi bukti pendukung bagi pelaksana teknis.

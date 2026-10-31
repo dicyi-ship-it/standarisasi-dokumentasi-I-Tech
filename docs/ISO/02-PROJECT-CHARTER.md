@@ -17,6 +17,8 @@ last_updated: null
 
 > Template internal; belum berisi hasil pemeriksaan aplikasi dan bukan bukti sertifikasi ISO.
 
+Sebelum mengisi atau merevisi dokumen aplikasi ini, wajib lulus [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md). Jika salah satu plugin belum terpasang/aktif/terbaca/digunakan atau statusnya belum dapat diverifikasi, tolak generasi termasuk draf dan isi melalui chat. Salinan aturan lokal bukan pengganti plugin.
+
 ## Penjelasan umum
 
 Piagam proyek menjelaskan alasan pekerjaan dilakukan, sasaran yang ingin dicapai, batas pekerjaan, serta pihak yang bertanggung jawab. Pimpinan menggunakan dokumen ini untuk memahami kesepakatan pekerjaan, kebutuhan sumber daya, dan keputusan yang perlu diberikan.

@@ -1,5 +1,7 @@
 # Alur Program per Role
 
+Sebelum mengisi atau merevisi alur/fitur/flowchart aplikasi, wajib lulus [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md). Jika salah satu plugin belum terpasang/aktif/terbaca/digunakan atau statusnya belum dapat diverifikasi, tolak generasi termasuk draf. Salinan aturan bukan pengganti plugin.
+
 Status: DRAFT. Isi berdasarkan aplikasi yang diperiksa; placeholder bukan hasil verifikasi. Bab ini mengisi Bab 5–6 pada template laporan induk: inventaris role/fitur pada Bab 5, alur/flowchart/output pada Bab 6.
 
 Bab ini membantu pimpinan memahami bagaimana masing-masing peran pengguna menjalankan pekerjaannya melalui aplikasi dan hasil apa yang diterima. Awali setiap pembahasan peran dan proses dengan paragraf yang menjelaskan tujuan pekerjaan, langkah yang dilakukan, hubungan dengan pihak lain, serta manfaat dan batasan hasilnya. Tabel berikut merupakan pendukung narasi dan harus dijelaskan maknanya. Ganti petunjuk dengan uraian lengkap berdasarkan bukti saat template digunakan.

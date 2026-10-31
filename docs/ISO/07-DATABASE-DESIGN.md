@@ -17,6 +17,8 @@ last_updated: null
 
 > Template internal; belum berisi hasil pemeriksaan aplikasi dan bukan bukti sertifikasi ISO.
 
+Sebelum mengisi atau merevisi dokumen aplikasi ini, wajib lulus [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md). Jika salah satu plugin belum terpasang/aktif/terbaca/digunakan atau statusnya belum dapat diverifikasi, tolak generasi termasuk draf dan isi melalui chat. Salinan aturan lokal bukan pengganti plugin.
+
 ## Penjelasan umum
 
 Rancangan penyimpanan data menjelaskan informasi yang disimpan dan hubungan antar-informasi untuk mendukung pekerjaan. Pimpinan perlu memahami pengaruh rancangan ini terhadap ketepatan informasi, penyusunan laporan, dan pemeliharaan data sebelum membaca nama tabel atau aturan teknis.

@@ -17,6 +17,8 @@ last_updated: null
 
 > Template internal; belum berisi hasil pemeriksaan aplikasi dan bukan bukti sertifikasi ISO.
 
+Sebelum mengisi atau merevisi dokumen aplikasi ini, wajib lulus [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md). Jika salah satu plugin belum terpasang/aktif/terbaca/digunakan atau statusnya belum dapat diverifikasi, tolak generasi termasuk draf dan isi melalui chat. Salinan aturan lokal bukan pengganti plugin.
+
 ## Penjelasan umum
 
 Spesifikasi kebutuhan menjelaskan layanan dan kemampuan yang dibutuhkan pengguna beserta kondisi keberhasilannya. Uraikan kebutuhan sebagai pekerjaan yang dapat dilakukan pengguna dan hasil yang diharapkan, sehingga pimpinan dapat menilai kesesuaian cakupan tanpa membaca kode.

@@ -1,5 +1,7 @@
 # Kebijakan Dokumentasi
 
+Sebelum merencanakan isi, mengisi, merevisi atau mengekspor dokumen standar aplikasi, wajib lulus [prasyarat Anti-slop dan Ponytail](generation-prerequisites.md). Kedua plugin harus terpasang, aktif, terbaca dan digunakan pada sesi yang sama. Jika salah satu belum memenuhi atau belum dapat diverifikasi, tolak generasi termasuk draf dan isi melalui chat. Salinan aturan lokal tidak meluluskan prasyarat.
+
 Dokumentasi membantu pimpinan memahami sistem, pekerjaan yang dilakukan, hasil yang tersedia, dan keputusan yang perlu diambil. Dokumen juga menyediakan rincian bagi pelaksana teknis agar penjelasan tersebut dapat ditelusuri ke bukti. Karena itu, pembaca harus dapat memahami pokok persoalan tanpa membaca kode atau mengetahui istilah pemrograman terlebih dahulu.
 
 Acuan, edisi, cara memeriksa klausul, dan format penilaian diatur pada [pemetaan ISO](iso-mapping.md). Setiap dokumen substantif aplikasi wajib menyebut acuan yang relevan, bukan sekadar label ISO. Dokumen administratif atau panduan yang tidak menilai persyaratan cukup merujuk pedoman ini dan menjelaskan fungsinya.
@@ -48,6 +50,6 @@ Sebelum penyerahan, cocokkan inventaris role, fitur, proses, output, flowchart, 
 
 ## Anti-slop selama penulisan
 
-Baca dan terapkan [kebijakan anti-slop](anti-slop.md) serta [aturan upstream lokal](anti-slop/antislop.md) sebelum menyusun isi. Gunakan mode during untuk generasi, bahasa spesifik dan alami, serta klaim yang memiliki sumber. Jangan mengurangi esensi, penjelasan bagi non-IT, rincian fitur/output, atau bukti untuk mengejar tulisan singkat. Label template, ilustrasi, dan ketidakpastian tetap terlihat. Salinan upstream dipertahankan utuh beserta lisensinya.
+Baca dan terapkan [kebijakan anti-slop](anti-slop.md) serta core/skill dari plugin yang aktif setelah kedua plugin lulus prasyarat. Gunakan Anti-slop during dan Ponytail full, bahasa spesifik dan alami, serta klaim yang memiliki sumber. Jangan mengurangi esensi, penjelasan bagi non-IT, rincian fitur/output, atau bukti untuk mengejar tulisan singkat. Label template, ilustrasi, dan ketidakpastian tetap terlihat. Salinan upstream dipertahankan utuh beserta lisensinya sebagai acuan audit, bukan bukti plugin terpasang.
 
 Sebelum penyerahan, catat empat blok Delivery Gate menggunakan [template pemeriksaan](../templates/reports/ANTI-SLOP-REVIEW.template.md). Periksa setiap butir yang berlaku dengan bukti; bagian UI yang tidak relevan pada perubahan dokumentasi diberi N/A dengan alasan. Pemeriksaan yang wajib tetapi belum dijalankan tidak boleh ditulis PASS. Catatan gate menjadi lampiran/rujukan laporan, bukan pengganti pemetaan ISO atau pengesahan dokumen.

@@ -1,5 +1,7 @@
 # Laporan Pertanggungjawaban PDF
 
+Sebelum merencanakan isi, membuat sumber, merevisi atau mengekspor laporan, periksa [prasyarat plugin](generation-prerequisites.md). Jika Anti-slop atau Ponytail belum terpasang, nonaktif, tidak terbaca, tidak digunakan, atau statusnya belum dapat dibuktikan, tolak generasi termasuk draf. Salinan aturan bukan pengganti plugin. Status DRAFT pada laporan di bawah hanya berlaku setelah prasyarat lulus.
+
 Laporan memberi pembaca IT maupun non-IT penjelasan tentang kebutuhan organisasi, aplikasi, pekerjaan, hasil, dan risiko yang memerlukan keputusan. Setiap bab mengawali rincian dengan narasi umum; tabel, diagram dan bukti teknis melengkapi penjelasan. Sumber isi adalah Markdown aplikasi yang telah diperiksa, dengan versi dan ID bukti yang konsisten.
 
 ## Struktur lintas aplikasi

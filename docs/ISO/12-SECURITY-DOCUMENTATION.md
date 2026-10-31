@@ -17,6 +17,8 @@ last_updated: null
 
 > Template internal; belum berisi hasil pemeriksaan aplikasi dan bukan bukti sertifikasi ISO.
 
+Sebelum mengisi atau merevisi dokumen aplikasi ini, wajib lulus [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md). Jika salah satu plugin belum terpasang/aktif/terbaca/digunakan atau statusnya belum dapat diverifikasi, tolak generasi termasuk draf dan isi melalui chat. Salinan aturan lokal bukan pengganti plugin.
+
 ## Penjelasan umum
 
 Dokumentasi keamanan menjelaskan bagaimana akses dan informasi dilindungi, ancaman yang diperiksa, serta keterbatasan pemeriksaan. Terjemahkan temuan menjadi dampak pada kerahasiaan dan ketepatan data atau ketersediaan layanan, tanpa menyimpulkan sistem aman dari pemeriksaan yang terbatas.

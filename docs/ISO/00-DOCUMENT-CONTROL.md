@@ -17,6 +17,8 @@ last_updated: null
 
 > Template internal; belum berisi hasil pemeriksaan aplikasi dan bukan bukti sertifikasi ISO.
 
+Sebelum mengisi atau merevisi dokumen aplikasi ini, wajib lulus [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md). Jika salah satu plugin belum terpasang/aktif/terbaca/digunakan atau statusnya belum dapat diverifikasi, tolak generasi termasuk draf dan isi melalui chat. Salinan aturan lokal bukan pengganti plugin.
+
 ## Penjelasan umum
 
 Dokumen kendali menjelaskan dokumen mana yang berlaku, siapa yang bertanggung jawab memperbaruinya, dan bagaimana perubahan disetujui. Bagi pimpinan, informasi ini membantu memastikan keputusan menggunakan dokumen yang tepat dan mengetahui pihak yang harus dihubungi ketika ada perbedaan informasi.

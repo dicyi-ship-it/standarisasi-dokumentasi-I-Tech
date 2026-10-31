@@ -17,6 +17,8 @@ last_updated: null
 
 > Template internal; belum berisi hasil pemeriksaan aplikasi dan bukan bukti sertifikasi ISO.
 
+Sebelum mengisi atau merevisi dokumen aplikasi ini, wajib lulus [prasyarat Anti-slop dan Ponytail](../../standards/generation-prerequisites.md). Jika salah satu plugin belum terpasang/aktif/terbaca/digunakan atau statusnya belum dapat diverifikasi, tolak generasi termasuk draf dan isi melalui chat. Salinan aturan lokal bukan pengganti plugin.
+
 ## Penjelasan umum
 
 Arsitektur sistem menjelaskan bagian utama aplikasi dan bagaimana bagian tersebut bekerja sama melayani pengguna. Dahulukan gambaran perjalanan informasi dan hubungan dengan layanan lain, kemudian jelaskan ketergantungan serta dampak gangguan sebelum menyajikan rincian teknologi.
