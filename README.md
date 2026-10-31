@@ -2,13 +2,17 @@
 
 Repository ini menyediakan pedoman bersama agar dokumentasi aplikasi dapat menjelaskan pekerjaan dan hasilnya kepada pimpinan serta tetap dapat diperiksa oleh tim teknis. Dokumen yang disusun dari pedoman ini harus menerangkan kebutuhan organisasi, cara kerja, pihak yang terlibat, dan hasil secara utuh. Rincian kode dan pengujian menjadi bukti pendukung setelah pembaca memahami gambaran umumnya.
 
-Kerangka kerja internal untuk standarisasi rekayasa perangkat lunak, dokumentasi, pengujian, dan pelaporan aplikasi Laravel universitas. **Bukan sertifikasi ISO**.
+Kerangka kerja internal untuk standarisasi rekayasa perangkat lunak, dokumentasi, pengujian, dan pelaporan berbagai aplikasi dan teknologi universitas. **Bukan sertifikasi ISO**.
 
 ## Mulai
-1. Baca `AGENTS.md` dan `standards/README.md`.
+
+1. Baca [instruksi kerja](AGENTS.md) dan [standar pusat](standards/README.md).
 2. Salin `templates/PROJECT_CONTEXT.template.md` menjadi `PROJECT_CONTEXT.md` pada repository aplikasi.
-3. Gunakan `docs/ISO/` sebagai template dokumen per aplikasi; jangan mengisi hasil audit atau pengujian tanpa bukti.
-4. Jalankan pengujian Playwright hanya pada lingkungan yang diizinkan.
-5. Buat laporan PDF pertanggungjawaban dari bukti yang telah diverifikasi, bukan dari asumsi.
+3. Isi [template dokumen ISO](docs/ISO/00-DOCUMENT-CONTROL.md) sesuai topik dan [pemetaan ISO](standards/iso-mapping.md). Verifikasi edisi/klausul sebelum menyimpulkan pemenuhan; jangan mengisi hasil audit tanpa bukti.
+4. Inventaris role aktual, seluruh fitur/tindakan/batas data dan output menggunakan [template alur per role](templates/reports/ALUR-PROGRAM-PER-ROLE.template.md). Setiap role wajib memiliki flowchart sendiri. Jangan menambah role tamu berdasarkan asumsi; akses publik dicatat terpisah jika ditemukan.
+5. Jalankan pengujian Playwright hanya pada lingkungan yang diizinkan.
+6. Gunakan [template laporan induk](templates/reports/LAPORAN-PERTANGGUNGJAWABAN.template.md) dan [standar PDF](standards/accountability-report.md) untuk struktur lintas aplikasi. Render flowchart dan periksa PDF; status tetap DRAFT sampai disahkan. [Contoh sintetis](templates/reports/CONTOH-SINTETIS.md) hanya menunjukkan pola pengisian, bukan bukti aplikasi.
 
 Dokumentasi teknis dan screenshot per aplikasi disimpan di repository aplikasi masing-masing. Repo ini berisi standar dan template.
+
+Saat menyalin template ke aplikasi, sesuaikan tautan pedoman pusat dengan lokasi standar yang digunakan atau tautan GitHub pada commit/tag tetap. Catat versi standar pusat pada PROJECT_CONTEXT. Jangan meninggalkan tautan relatif ke `standards/` atau `templates/` yang tidak tersedia pada repository aplikasi.

@@ -1,8 +1,10 @@
 ---
 document_id: ITECH-ISO-04
-title: BUSINESS-PROCESS
+title: "Proses Bisnis"
 application: "[nama aplikasi]"
-document_version: 0.1.0
+application_version: "[versi aplikasi]"
+source_commit: null
+document_version: 0.2.0
 status: template
 classification: internal
 owner: "[penanggung jawab]"
@@ -11,60 +13,81 @@ approved_by: null
 last_updated: null
 ---
 
-# 04 — BUSINESS PROCESS
+# 04 — Proses Bisnis
 
-> Template internal universitas; bukan sertifikat ISO. Isi hanya dari bukti yang diperiksa.
+> Template internal; belum berisi hasil pemeriksaan aplikasi dan bukan bukti sertifikasi ISO.
 
 ## Penjelasan umum
 
 Proses bisnis menjelaskan urutan pekerjaan dari kebutuhan awal sampai hasil diterima, termasuk pembagian tanggung jawab dan persetujuan antarperan. Uraian harus membantu pimpinan memahami titik pemeriksaan, ketergantungan antarbagian, dan akibat ketika suatu tahap tertunda atau gagal.
 
-Petunjuk pengisian: kembangkan penjelasan ini menjadi narasi khusus aplikasi berdasarkan bukti. Setiap bagian harus menjelaskan makna, pihak yang terlibat, hasil, dan dampaknya dengan bahasa yang dipahami pimpinan. Tabel dan rincian teknis mendukung narasi; keduanya tidak menggantikan penjelasan.
+Ganti petunjuk dengan narasi khusus aplikasi. Jelaskan tujuan, pihak yang terlibat, proses, hasil, dan batasannya sebelum tabel atau rincian teknis. Gunakan bahasa yang dipahami pembaca IT maupun non-IT; jelaskan istilah pada penggunaan pertama.
 
-## 1. Identitas dan kendali dokumen
+## 1. Identitas, tujuan, dan ruang lingkup
 
-Jelaskan aplikasi dan versi yang dibahas, tanggal pemeriksaan, pemilik informasi, pembaca yang dituju, serta status persetujuan. Terangkan batas penggunaan dokumen agar pembaca mengetahui apakah isinya masih berupa rancangan atau sudah dapat dijadikan acuan.
+Jelaskan versi aplikasi/commit, versi dokumen, pemilik, pemeriksa, tanggal, lingkungan, pembaca, serta status persetujuan aktual. Terangkan tujuan dokumen, cakupan dan batas pemeriksaan, sumber informasi, serta keputusan yang akan didukung. Nilai null pada metadata berarti belum tersedia, bukan persetujuan.
 
-[Ganti petunjuk dengan uraian lengkap berdasarkan bukti aplikasi. Jika belum tersedia, tulis Belum terverifikasi, jelaskan informasi yang belum diketahui dan pemeriksaan yang masih diperlukan. Untuk hal yang tidak berlaku, tulis N/A beserta alasan.]
+[Ganti petunjuk dengan uraian berdasarkan bukti aplikasi. Jika belum diketahui, tulis Belum terverifikasi beserta dampak dan pemeriksaan lanjutan. Jika tidak berlaku, tulis N/A dengan alasan.]
 
-## 2. Tujuan dan ruang lingkup
+## 2. Acuan dan pemetaan ISO
 
-Uraikan alasan dokumen disusun, kebutuhan organisasi yang dijawab, dan pekerjaan atau informasi yang termasuk dalam pembahasan. Jelaskan batas yang tidak dicakup beserta alasannya agar pembaca tidak menarik kesimpulan di luar pemeriksaan.
+Calon acuan sesuai topik: **ISO/IEC/IEEE 29148:2018; ISO/IEC/IEEE 12207:2026**. Jelaskan alasan relevansinya dan pilih yang benar-benar digunakan. Acuan ini belum membuktikan pemenuhan. Ikuti [pedoman pemetaan ISO](../../standards/iso-mapping.md) untuk memeriksa edisi/amendemen dan naskah klausul. Ulangi tabel untuk setiap persyaratan yang dinilai; jangan mengarang nomor klausul.
 
-[Ganti petunjuk dengan uraian lengkap berdasarkan bukti aplikasi. Jika belum tersedia, tulis Belum terverifikasi, jelaskan informasi yang belum diketahui dan pemeriksaan yang masih diperlukan. Untuk hal yang tidak berlaku, tulis N/A beserta alasan.]
+| Informasi | Isi |
+| --- | --- |
+| ID pemetaan | [ISO-ID unik] |
+| Standar, edisi, amendemen | [pilihan acuan terverifikasi] |
+| Klausul/kontrol dan judul | Belum terverifikasi — isi setelah naskah klausul diperiksa |
+| Makna dan relevansi | [ringkasan bahasa umum dan alasan berlaku] |
+| Sumber persyaratan | [lokasi/identitas, bagian, tanggal, pemeriksa, status verifikasi] |
+| Penerapan dan bagian dokumen | [mekanisme aktual, tautan bagian] |
+| Bukti dan batas penilaian | [BKT-ID, lokasi, versi, metode, ruang lingkup] |
+| Hasil penilaian | Belum terverifikasi — template belum menilai aplikasi |
+| Kesenjangan, dampak, tindak lanjut | [kekurangan, tindakan, pemilik, target yang disepakati atau Belum ditetapkan] |
 
-## 3. Kondisi terverifikasi
+## 3. Pelaku dan aturan proses
 
-Ceritakan keadaan yang benar-benar ditemukan dan cara memeriksanya. Bedakan informasi dari pemeriksaan kode dengan hasil pengujian langsung, lalu jelaskan bagian yang belum diketahui dan pengaruhnya terhadap pemahaman kondisi sistem.
+Jelaskan pemicu pekerjaan, role aktual, tanggung jawab, kondisi awal, data yang dibutuhkan, aturan keputusan, dan batas wewenang.
 
-[Ganti petunjuk dengan uraian lengkap berdasarkan bukti aplikasi. Jika belum tersedia, tulis Belum terverifikasi, jelaskan informasi yang belum diketahui dan pemeriksaan yang masih diperlukan. Untuk hal yang tidak berlaku, tulis N/A beserta alasan.]
+[Ganti petunjuk dengan uraian berdasarkan bukti aplikasi. Jika belum diketahui, tulis Belum terverifikasi beserta dampak dan pemeriksaan lanjutan. Jika tidak berlaku, tulis N/A dengan alasan.]
 
-## 4. Rincian dan analisis
+## 4. Urutan, keputusan, dan perpindahan pekerjaan
 
-Kembangkan topik dokumen dari penjelasan umum di atas menjadi uraian yang runtut: pihak yang terlibat, cara kerja atau aturan, hasil, serta dampaknya bagi pekerjaan. Jelaskan hubungan antarbagian dan arti setiap tabel atau diagram sebelum menambahkan rincian teknis.
+Uraikan tiap PRO dari awal sampai akhir, cabang normal/gagal/ditolak, perubahan status, dan perpindahan tanggung jawab yang ditemukan. Rujuk flowchart wajib setiap role dan FIT terkait pada template alur per role.
 
-Untuk setiap proses dan role, inventarisasi seluruh output: nama/tujuan, pemicu, bentuk/format, isi dan sumber data, filter/periode, penerima dan hak akses, serta cara memperoleh hasil. Sertakan contoh dengan data sintetis dan bukti; tandai hasil yang belum diperiksa sebagai Belum terverifikasi.
+[Ganti petunjuk dengan uraian berdasarkan bukti aplikasi. Jika belum diketahui, tulis Belum terverifikasi beserta dampak dan pemeriksaan lanjutan. Jika tidak berlaku, tulis N/A dengan alasan.]
 
-Dokumentasikan alur setiap role terverifikasi: pemicu, prasyarat, langkah penggunaan, validasi, perubahan data/status, hasil, alur gagal, dan penyerahan ke role lain. Sertakan diagram alur dan referensi bukti. Gunakan rincian ini sebagai sumber bab Alur Program per Role pada laporan akhir.
+## 5. Hasil dan pengendalian proses
 
-[Ganti petunjuk dengan uraian lengkap berdasarkan bukti aplikasi. Jika belum tersedia, tulis Belum terverifikasi, jelaskan informasi yang belum diketahui dan pemeriksaan yang masih diperlukan. Untuk hal yang tidak berlaku, tulis N/A beserta alasan.]
+Jelaskan setiap OUT, penerima, waktu pembentukan, penggunaan, kondisi kosong/gagal, dan bukti. Bedakan proses yang dirancang dari proses aktual serta pekerjaan manual yang masih diperlukan.
 
-## 5. Bukti dan referensi
+[Ganti petunjuk dengan uraian berdasarkan bukti aplikasi. Jika belum diketahui, tulis Belum terverifikasi beserta dampak dan pemeriksaan lanjutan. Jika tidak berlaku, tulis N/A dengan alasan.]
 
-Jelaskan apa yang dibuktikan oleh setiap referensi, bagaimana kaitannya dengan uraian, dan batas kesimpulan yang dapat diambil. Cantumkan lokasi bukti, versi atau tanggal yang relevan, serta keterangan gambar agar pembaca tidak harus menafsirkan bukti tanpa konteks.
+Untuk rincian wajib setiap role, fitur, flowchart, langkah, seluruh output (isi, sumber, filter/periode, penerima, akses, cara memperoleh, contoh, kondisi gagal), serta pengiriman email bila ada, gunakan [template alur per role](../../templates/reports/ALUR-PROGRAM-PER-ROLE.template.md). Bagian ini menjadi sumber Bab 5–6 laporan; pertahankan ID dan status bukti yang sama.
 
-[Ganti petunjuk dengan uraian lengkap berdasarkan bukti aplikasi. Jika belum tersedia, tulis Belum terverifikasi, jelaskan informasi yang belum diketahui dan pemeriksaan yang masih diperlukan. Untuk hal yang tidak berlaku, tulis N/A beserta alasan.]
+## 6. Bukti dan hasil verifikasi
 
-## 6. Temuan, risiko, dan tindak lanjut
+Jelaskan keadaan yang benar-benar ditemukan, cara pemeriksaan, dan batas kesimpulannya. Bedakan pemeriksaan kode, pengujian langsung, bukti visual, operasional, serta keterangan pihak terkait. Hubungkan ID kebutuhan/fitur/proses/output yang relevan dengan UJI/BKT dan pemetaan ISO; gunakan [aturan keterlacakan](../../standards/documentation.md). Jangan menyebut pengujian lulus hanya karena kode tersedia.
 
-Jelaskan masalah atau ketidakpastian dengan bahasa umum, siapa yang terdampak, dan akibatnya bagi layanan atau data. Uraikan tindak lanjut, penanggung jawab, prioritas beserta alasannya, dan keputusan pimpinan yang diperlukan jika ada; jangan mengarang jadwal atau persetujuan.
+| ID bukti | Lokasi dan jenis | Versi/commit, tanggal, lingkungan | Metode, pemeriksa, hasil aktual | Yang dibuktikan dan batasnya |
+| --- | --- | --- | --- | --- |
+| [BKT-ID] | [isi] | [isi] | [isi] | [isi] |
 
-[Ganti petunjuk dengan uraian lengkap berdasarkan bukti aplikasi. Jika belum tersedia, tulis Belum terverifikasi, jelaskan informasi yang belum diketahui dan pemeriksaan yang masih diperlukan. Untuk hal yang tidak berlaku, tulis N/A beserta alasan.]
+[Ganti petunjuk dengan uraian berdasarkan bukti aplikasi. Jika belum diketahui, tulis Belum terverifikasi beserta dampak dan pemeriksaan lanjutan. Jika tidak berlaku, tulis N/A dengan alasan.]
 
-## 7. Riwayat revisi
+## 7. Temuan, risiko, dan tindak lanjut
 
-- 2026-10-29: Menambahkan penjelasan umum sesuai topik dan panduan narasi untuk pembaca pimpinan; isi aplikasi tetap harus diverifikasi.
+Jelaskan kekurangan atau ketidakpastian, pihak terdampak, akibat bagi pekerjaan/data/layanan, dan keputusan yang dibutuhkan. Status pemenuhan ISO berbeda dari hasil tes atau status penerbitan dokumen.
 
-- 2026-10-29: Panduan template diperluas untuk mendukung alur program per role pada laporan akhir; bukan hasil pemeriksaan aplikasi.
+| ID temuan | Masalah dan bukti | Dampak dan prioritas beserta alasan | Tindakan dan penanggung jawab | Target yang disepakati | Status dan hasil pemeriksaan ulang |
+| --- | --- | --- | --- | --- | --- |
+| [TEM-ID] | [isi] | [isi] | [isi] | [atau Belum ditetapkan] | [isi] |
 
-[Ganti petunjuk dengan uraian lengkap berdasarkan bukti aplikasi. Jika belum tersedia, tulis Belum terverifikasi, jelaskan informasi yang belum diketahui dan pemeriksaan yang masih diperlukan. Untuk hal yang tidak berlaku, tulis N/A beserta alasan.]
+## 8. Riwayat revisi
+
+Catat tanggal, versi dokumen, penyusun, ringkasan perubahan, serta peninjau/persetujuan nyata. Baris di bawah mencatat revisi template pusat, bukan revisi atau pengesahan dokumen aplikasi; ganti ketika digunakan.
+
+| Tanggal | Versi | Perubahan template |
+| --- | --- | --- |
+| 2026-10-29 | 0.1.0 | Panduan narasi untuk pembaca pimpinan |
+| 2026-10-31 | 0.2.0 | Isi khusus topik, acuan ISO eksplisit, keterlacakan bukti, dan kendali yang seragam |

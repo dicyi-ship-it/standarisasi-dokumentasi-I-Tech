@@ -1,11 +1,14 @@
 # Template Laporan PDF
 
-Template laporan membantu menyusun pertanggungjawaban yang dapat dipahami pimpinan, mulai dari kebutuhan organisasi sampai hasil pekerjaan dan keputusan lanjutan. Laporan wajib memuat narasi umum yang lengkap di setiap bab sebelum tabel atau bukti teknis. Jelaskan arti hasil bagi pengguna dan layanan, gunakan istilah sehari-hari, serta terangkan istilah teknis ketika pertama disebut. Ikuti [kebijakan dokumentasi](../../standards/documentation.md); daftar poin atau tabel saja belum memenuhi kebutuhan penjelasan.
+Template ini digunakan untuk menyusun laporan yang dipahami pimpinan dan tetap dapat diperiksa tim IT serta auditor. Markdown menjadi sumber isi; PDF merupakan bentuk penyajiannya. Isi harus berasal dari aplikasi yang diperiksa dan menjelaskan tujuan, proses, hasil, serta batas kesimpulan dalam bahasa umum.
 
-Sumber: dokumen ISO aplikasi, metadata Git, hasil tes, screenshot, bukti operasional. Bahasa Indonesia formal; ukuran A4; tabel dan gambar berlabel; status DRAFT sebelum persetujuan. PDF dibuat hanya setelah tersedia bukti, bukan pada setiap commit.
+## Cara menggunakan
 
-Laporan akhir wajib menyertakan bab **Alur Program per Role** setelah profil sistem. Gunakan [template alur per role](ALUR-PROGRAM-PER-ROLE.template.md) untuk menjelaskan seluruh role terverifikasi, langkah penggunaan tiap proses, batas akses, dan hubungan proses antar-role beserta bukti.
+1. Isi [konteks proyek](../PROJECT_CONTEXT.template.md) pada aplikasi dan periksa role, fitur, versi, serta batas lingkungannya.
+2. Isi dokumen [ISO](../../docs/ISO/00-DOCUMENT-CONTROL.md) yang relevan dengan petunjuk khusus tiap topik; verifikasi acuan melalui [pedoman ISO](../../standards/iso-mapping.md).
+3. Salin [laporan induk](LAPORAN-PERTANGGUNGJAWABAN.template.md) ke `docs/reports/` aplikasi. Pertahankan urutan bagian dan bab. Ganti petunjuk dengan narasi dan bukti; bagian tidak berlaku diberi alasan.
+4. Isi [alur per role](ALUR-PROGRAM-PER-ROLE.template.md) untuk Bab 5–6: role aktual, seluruh fitur dan batas akses, flowchart wajib setiap role, proses, output, email bila ada, serta bukti. Jangan menambah role tamu berdasarkan asumsi; akses publik dicatat terpisah hanya jika ditemukan.
+5. Hubungkan ID kebutuhan/pemetaan, role/fitur, proses/diagram, output, pengujian, bukti dan temuan. Bedakan pemeriksaan kode, pengujian, serta ketidakpastian.
+6. Render diagram dan ekspor PDF sesuai [standar laporan](../../standards/accountability-report.md). Periksa isi dan seluruh halaman cetak sebelum penyerahan; status tetap DRAFT sampai pengesahan nyata.
 
-Jabarkan seluruh output setiap proses: bentuk/format, isi data, sumber dan filter, penerima, hak akses, cara memperoleh hasil, serta contoh dan bukti verifikasinya. Bedakan hasil yang diharapkan dengan hasil aktual.
-
-Untuk output email, jelaskan tujuan To/CC/BCC, role penerima, sumber alamat, aturan pemilihan tujuan, isi/lampiran, dan bukti status pengiriman. Gunakan alamat sintetis atau samarkan alamat pribadi dalam laporan.
+Untuk melihat pola narasi, fitur, diagram, output dan keterbatasan pemetaan, baca [contoh sintetis](CONTOH-SINTETIS.md). Contoh tersebut bukan hasil audit dan tidak menetapkan role atau fitur yang harus ada pada aplikasi.

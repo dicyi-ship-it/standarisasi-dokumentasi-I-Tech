@@ -1,51 +1,91 @@
 ---
 document_id: ITECH-ISO-07
-title: DATABASE-DESIGN
+title: "Rancangan Basis Data"
 application: "[nama aplikasi]"
-document_version: 0.1.0
+application_version: "[versi aplikasi]"
+source_commit: null
+document_version: 0.2.0
 status: template
 classification: internal
 owner: "[penanggung jawab]"
 reviewer: null
 approved_by: null
+last_updated: null
 ---
 
-# DATABASE DESIGN
+# 07 — Rancangan Basis Data
 
-> Template internal; bukan sertifikasi ISO. Semua klaim harus berdasarkan bukti.
+> Template internal; belum berisi hasil pemeriksaan aplikasi dan bukan bukti sertifikasi ISO.
 
 ## Penjelasan umum
 
 Rancangan penyimpanan data menjelaskan informasi yang disimpan dan hubungan antar-informasi untuk mendukung pekerjaan. Pimpinan perlu memahami pengaruh rancangan ini terhadap ketepatan informasi, penyusunan laporan, dan pemeliharaan data sebelum membaca nama tabel atau aturan teknis.
 
-Petunjuk pengisian: kembangkan pengantar ini menjadi uraian khusus aplikasi berdasarkan bukti. Gunakan bahasa yang dipahami pimpinan dan jelaskan makna tabel, diagram, atau contoh sebelum menyajikan rincian teknis.
+Ganti petunjuk dengan narasi khusus aplikasi. Jelaskan tujuan, pihak yang terlibat, proses, hasil, dan batasannya sebelum tabel atau rincian teknis. Gunakan bahasa yang dipahami pembaca IT maupun non-IT; jelaskan istilah pada penggunaan pertama.
 
-## Tujuan dan ruang lingkup
+## 1. Identitas, tujuan, dan ruang lingkup
 
-Uraikan kebutuhan organisasi yang dijawab, pihak yang berkepentingan, serta batas pembahasan. Jelaskan mengapa informasi pada dokumen ini diperlukan dan bagaimana pembaca akan menggunakannya.
+Jelaskan versi aplikasi/commit, versi dokumen, pemilik, pemeriksa, tanggal, lingkungan, pembaca, serta status persetujuan aktual. Terangkan tujuan dokumen, cakupan dan batas pemeriksaan, sumber informasi, serta keputusan yang akan didukung. Nilai null pada metadata berarti belum tersedia, bukan persetujuan.
 
-[Tulis uraian lengkap sesuai petunjuk berdasarkan bukti aplikasi. Jika tidak berlaku, tulis N/A beserta alasan.]
+[Ganti petunjuk dengan uraian berdasarkan bukti aplikasi. Jika belum diketahui, tulis Belum terverifikasi beserta dampak dan pemeriksaan lanjutan. Jika tidak berlaku, tulis N/A dengan alasan.]
 
-## Kondisi terverifikasi
+## 2. Acuan dan pemetaan ISO
 
-Jelaskan keadaan yang benar-benar ditemukan, versi dan lingkungan yang diperiksa, serta cara memperoleh bukti. Bedakan pemeriksaan kode dari pengujian langsung dan jelaskan pengaruh bagian yang belum diketahui terhadap kesimpulan.
+Calon acuan sesuai topik: **ISO/IEC/IEEE 15289:2019; ISO/IEC/IEEE 42010:2022**. Jelaskan alasan relevansinya dan pilih yang benar-benar digunakan. Acuan ini belum membuktikan pemenuhan. Ikuti [pedoman pemetaan ISO](../../standards/iso-mapping.md) untuk memeriksa edisi/amendemen dan naskah klausul. Ulangi tabel untuk setiap persyaratan yang dinilai; jangan mengarang nomor klausul.
 
-[Jika belum ada bukti, tulis Belum terverifikasi, jelaskan informasi yang belum diketahui dan pemeriksaan lanjutan yang diperlukan.]
+| Informasi | Isi |
+| --- | --- |
+| ID pemetaan | [ISO-ID unik] |
+| Standar, edisi, amendemen | [pilihan acuan terverifikasi] |
+| Klausul/kontrol dan judul | Belum terverifikasi — isi setelah naskah klausul diperiksa |
+| Makna dan relevansi | [ringkasan bahasa umum dan alasan berlaku] |
+| Sumber persyaratan | [lokasi/identitas, bagian, tanggal, pemeriksa, status verifikasi] |
+| Penerapan dan bagian dokumen | [mekanisme aktual, tautan bagian] |
+| Bukti dan batas penilaian | [BKT-ID, lokasi, versi, metode, ruang lingkup] |
+| Hasil penilaian | Belum terverifikasi — template belum menilai aplikasi |
+| Kesenjangan, dampak, tindak lanjut | [kekurangan, tindakan, pemilik, target yang disepakati atau Belum ditetapkan] |
 
-## Rincian dan bukti
+## 3. Kelompok data dan hubungannya
 
-Kembangkan topik pada penjelasan umum menjadi narasi yang menjelaskan cara kerja, pihak yang terlibat, aturan, hasil, dan manfaat atau keterbatasannya. Hubungkan setiap rincian dengan bukti kode, pengujian, atau tangkapan layar, lalu jelaskan arti bukti bagi pembaca sebelum menampilkan tabel atau rincian teknis.
+Jelaskan data yang disimpan, pemilik, tujuan, relasi, dan diagram hubungan berdasarkan skema aktual. Terangkan makna hubungan bagi pekerjaan pengguna.
 
-[Isi narasi berdasarkan bukti nyata dan cantumkan referensinya. Tandai hal yang belum diperiksa sebagai Belum terverifikasi beserta dampaknya terhadap kesimpulan.]
+[Ganti petunjuk dengan uraian berdasarkan bukti aplikasi. Jika belum diketahui, tulis Belum terverifikasi beserta dampak dan pemeriksaan lanjutan. Jika tidak berlaku, tulis N/A dengan alasan.]
 
-## Risiko dan tindak lanjut
+## 4. Integritas dan perubahan data
 
-Jelaskan masalah dan ketidakpastian beserta dampaknya terhadap pekerjaan, data, atau layanan. Uraikan tindak lanjut yang diperlukan, pihak yang bertanggung jawab, alasan prioritas, serta keputusan pimpinan jika ada tanpa mengarang jadwal atau persetujuan.
+Uraikan kunci, hubungan, keunikan, validasi, transaksi, serta perilaku perubahan/penghapusan yang ditemukan. Jelaskan dampak data tidak valid dan rujuk kamus data.
 
-[Tulis uraian lengkap sesuai petunjuk berdasarkan bukti aplikasi. Jika tidak berlaku, tulis N/A beserta alasan.]
+[Ganti petunjuk dengan uraian berdasarkan bukti aplikasi. Jika belum diketahui, tulis Belum terverifikasi beserta dampak dan pemeriksaan lanjutan. Jika tidak berlaku, tulis N/A dengan alasan.]
 
-## Riwayat revisi
+## 5. Penyimpanan dan siklus hidup data
 
-- 2026-10-29: Menambahkan penjelasan umum sesuai topik dan panduan narasi untuk pembaca pimpinan; isi aplikasi tetap harus diverifikasi.
+Jelaskan akses, data sensitif, retensi, pengarsipan, pencadangan, dan pemulihan sesuai bukti. Bedakan konfigurasi backup dari bukti backup berhasil dan uji pemulihan.
 
-[Tulis uraian lengkap sesuai petunjuk berdasarkan bukti aplikasi. Jika tidak berlaku, tulis N/A beserta alasan.]
+[Ganti petunjuk dengan uraian berdasarkan bukti aplikasi. Jika belum diketahui, tulis Belum terverifikasi beserta dampak dan pemeriksaan lanjutan. Jika tidak berlaku, tulis N/A dengan alasan.]
+
+## 6. Bukti dan hasil verifikasi
+
+Jelaskan keadaan yang benar-benar ditemukan, cara pemeriksaan, dan batas kesimpulannya. Bedakan pemeriksaan kode, pengujian langsung, bukti visual, operasional, serta keterangan pihak terkait. Hubungkan ID kebutuhan/fitur/proses/output yang relevan dengan UJI/BKT dan pemetaan ISO; gunakan [aturan keterlacakan](../../standards/documentation.md). Jangan menyebut pengujian lulus hanya karena kode tersedia.
+
+| ID bukti | Lokasi dan jenis | Versi/commit, tanggal, lingkungan | Metode, pemeriksa, hasil aktual | Yang dibuktikan dan batasnya |
+| --- | --- | --- | --- | --- |
+| [BKT-ID] | [isi] | [isi] | [isi] | [isi] |
+
+[Ganti petunjuk dengan uraian berdasarkan bukti aplikasi. Jika belum diketahui, tulis Belum terverifikasi beserta dampak dan pemeriksaan lanjutan. Jika tidak berlaku, tulis N/A dengan alasan.]
+
+## 7. Temuan, risiko, dan tindak lanjut
+
+Jelaskan kekurangan atau ketidakpastian, pihak terdampak, akibat bagi pekerjaan/data/layanan, dan keputusan yang dibutuhkan. Status pemenuhan ISO berbeda dari hasil tes atau status penerbitan dokumen.
+
+| ID temuan | Masalah dan bukti | Dampak dan prioritas beserta alasan | Tindakan dan penanggung jawab | Target yang disepakati | Status dan hasil pemeriksaan ulang |
+| --- | --- | --- | --- | --- | --- |
+| [TEM-ID] | [isi] | [isi] | [isi] | [atau Belum ditetapkan] | [isi] |
+
+## 8. Riwayat revisi
+
+Catat tanggal, versi dokumen, penyusun, ringkasan perubahan, serta peninjau/persetujuan nyata. Baris di bawah mencatat revisi template pusat, bukan revisi atau pengesahan dokumen aplikasi; ganti ketika digunakan.
+
+| Tanggal | Versi | Perubahan template |
+| --- | --- | --- |
+| 2026-10-29 | 0.1.0 | Panduan narasi untuk pembaca pimpinan |
+| 2026-10-31 | 0.2.0 | Isi khusus topik, acuan ISO eksplisit, keterlacakan bukti, dan kendali yang seragam |
